@@ -1,6 +1,13 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+// Variables
+
+$deepBlue: #032f3e;
+$sectionHeading: 24px;
+
+#main-nav{
+    background: $deepBlue;
 }
 
+section h1{
+    font-size: $sectionHeading;
+    color: $deepBlue;
+}
