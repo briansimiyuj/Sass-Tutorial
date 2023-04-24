@@ -1,1 +1,7 @@
-To install Sass use `npm install -g sass` command
+To compile sass files into CSS files use the following command
+
+    `sass input.scss output.css` command for one off compilation
+
+    `sass --watch input.scss output.css` command for continuos compilation
+
+    `sass --watch {inputDir}:{outputDir}` command to automatically compile multiple sass files
