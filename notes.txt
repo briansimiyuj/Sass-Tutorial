@@ -1,2 +1,1 @@
-To install Sass use npm install -g sass
-
+To install Sass use `npm install -g sass` command
