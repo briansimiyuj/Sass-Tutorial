@@ -1,1 +1,1 @@
-A mixin is a chunk of reusable css code that we can apply to any html element
+Reference video #6 for importing modules
