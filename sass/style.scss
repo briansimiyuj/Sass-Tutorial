@@ -9,6 +9,12 @@
     ul{
         width: 100%;
 
+        &::after{
+            content: '';
+            display: block;
+            clear: both;       
+        }
+
         li{
             float: left;
             width: 14%;
@@ -19,15 +25,13 @@
                 padding: 15px;
                 display: block;
                 text-align: center;                    
+
+                &:hover{
+                    background: #333;
+                }
             }
         }
     }
-}
-
-#main-nav ul::after{
-    content: '';
-    display: block;
-    clear: both;
 }
 
 section h1{
