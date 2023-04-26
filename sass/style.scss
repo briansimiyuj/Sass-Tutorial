@@ -8,12 +8,7 @@
 
     ul{
         width: 100%;
-
-        &::after{
-            content: '';
-            display: block;
-            clear: both;       
-        }
+        @include clearFix;
 
         li{
             float: left;
