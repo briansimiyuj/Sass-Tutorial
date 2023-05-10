@@ -21,15 +21,9 @@ $colors:(
 );
 
 
-    @debug map-get($map: $colors, $key: "purple");
-
-    @debug map-has-key($map: $colors, $key: "secondary");
-
-    @debug map-has-key($map: $colors, $key: "tertiary");
-
-    @debug map-remove($map: $colors, $key: "primary");
-
-    @debug map-merge($map1: $colors, $map2: ("pink": #ffc0cb));
+.test-btn{
+    background-color: map-get($map: $colors, $key: "purple");
+}
 
 
 // spacing
