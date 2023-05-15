@@ -8,4 +8,18 @@
         background: $value;
     }
 
+    // Light variations
+    @for $i from 1 through 9{
+
+        .text-#{$key}-light-#{$i}{
+            color: mix(#fff, $value,  $i * 10);
+        }
+
+        .bg-#{$key}-light-#{$i}{
+            background-color: mix(#fff, $value, $i * 10);
+        }
+
+    }
+
 }
+
