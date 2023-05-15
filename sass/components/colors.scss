@@ -8,44 +8,34 @@
         background: $value;
     }
 
-    // Light variations
-    @for $i from 1 through 9{
 
-        .text-#{$key}-light-#{$i}{
-            color: mix(#fff, $value,  $i * 10);
+    @if($value != #000 && $value != #fff){
+
+        // Light variations
+        @for $i from 1 through 9{
+
+            .text-#{$key}-light-#{$i}{
+                color: mix(#fff, $value,  $i * 10);
+            }
+
+            .bg-#{$key}-light-#{$i}{
+                background-color: mix(#fff, $value, $i * 10);
+            }
+
         }
 
-        .bg-#{$key}-light-#{$i}{
-            background-color: mix(#fff, $value, $i * 10);
+        // dark variations
+        @for $i from 1 through 9 {
+
+            .text-#{$key}-dark-#{$i} {
+                color: mix(black, $value, $i * 10);
+            }
+            .bg-#{$key}-dark-#{$i} {
+                background-color: mix(black, $value, $i * 10);
+            }
+            
         }
 
-    }
-
-    // dark variations
-    @for $i from 1 through 9 {
-
-        .text-#{$key}-dark-#{$i} {
-            color: mix(black, $value, $i * 10);
-        }
-        .bg-#{$key}-dark-#{$i} {
-            background-color: mix(black, $value, $i * 10);
-        }
-        
-    }
-
-}
-
-
-@if(10 < 5){
-
-    .test-if{
-        color: #000;
-    }
-
-}@else{
-    
-    .test-if-2{
-        color: #fff;
     }
 
 }
