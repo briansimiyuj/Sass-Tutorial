@@ -1855,6 +1855,10 @@ img {
   background-color: #1a1a1a;
 }
 
+.test-if-2 {
+  color: #fff;
+}
+
 .card {
   display: block;
   padding: 0.75rem;

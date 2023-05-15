@@ -35,3 +35,17 @@
 
 }
 
+
+@if(10 < 5){
+
+    .test-if{
+        color: #000;
+    }
+
+}@else{
+    
+    .test-if-2{
+        color: #fff;
+    }
+
+}
