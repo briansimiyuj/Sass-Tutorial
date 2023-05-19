@@ -15,7 +15,7 @@
     }
 
 
-    @if($value != #000 && $value != #fff){
+    @if($value != #000 and $value != #fff){
 
         // Light variations
         @for $i from 1 through 9{
