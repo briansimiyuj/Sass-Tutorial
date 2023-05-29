@@ -1,1 +1,5 @@
-A function will return a single value
+@extend allows us to use the properties of one selector to other selectors. (See navbar.scss ln 11)
+
+When compiled to css, the rules are bunched together like this:
+
+    selector-1, selector-2{} where selector-2 inherits properties from selector-1
