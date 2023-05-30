@@ -3247,7 +3247,7 @@ img {
   background-color: white;
 }
 
-.flex-layout, .navbar .container, .navbar {
+.navbar .container, .navbar {
   width: 100%;
   display: flex;
   justify-content: space-between;

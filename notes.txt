@@ -3,3 +3,6 @@
 When compiled to css, the rules are bunched together like this:
 
     selector-1, selector-2{} where selector-2 inherits properties from selector-1
+
+
+When we don't want a rule to be compiled to css, we can turn it into a placeholder rule by adding % next to the selector. For example %flex-layout{}
