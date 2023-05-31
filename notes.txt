@@ -1,17 +1,1 @@
-Sometimes we will never use all the css rules that have been compiled, therefore we will purge them so that we only have the css rules that have been used in the html files.
-
-To do this, we will install PurgeCSS with the following command:
-
-    `npm install -g purgecss`
-
-Navigate to the directory where the css files are located
-
-Then run the following command
-
-    `purgecss --css ${cssFile}.css --content ${htmlFile}.html --output purged-styles.css`
-
-To monitor css and html files, run the following command
-
-    `purgecss --css ${cssFile}.css --content ${htmlFile}.html --output purged-styles.css --watch`
-
-Use the new css files into the html files
+When we want to customize something in sass, we use !default. This means, if we don't provide an alternative value, it will use the default value
